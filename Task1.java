@@ -88,7 +88,7 @@ public class Task1 {
         String username = u1.getUsername();
         String password = u1.getPassword();
 
-        String url = "jdbc:mysql://localhost:3306/vasu"; // change the database as 'vasu' as per your requirement
+        String url = "jdbc:mysql://localhost:3306/vasu"; 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
